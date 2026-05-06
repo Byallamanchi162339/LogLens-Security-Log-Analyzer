@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogLens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>LogLens – Security Log Analyzer</h1>
+
+<form action="http://127.0.0.1:5000/analyze" method="POST" enctype="multipart/form-data">
+    <input type="file" name="logfile" required>
+    <button type="submit">Analyze Log</button>
+</form>
+
+<p><b>Upload Apache / Nginx log file</b></p>
+
+</body>
+</html>
